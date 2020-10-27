@@ -25,7 +25,7 @@ namespace BTH43
             }
                 if (co)
                 {
-
+                txtSo.Text = null;
                     listBox1.Items.Add(txtSo.Text);
                     txtSo.Text = "";
                     txtSo.Focus();
